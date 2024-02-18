@@ -83,20 +83,21 @@ couponApplyBtn.addEventListener('click',function(){
     const discountField=document.getElementById('discount-sec');
     let discounts=document.getElementById('discount');
 
-    const discounted=parseInt(total_price.innerText)*0.15;
-    const calculate1=(parseInt(total_price.innerText)-(parseInt(total_price.innerText)*0.15));
-    const calculate2=(parseInt(total_price.innerText)-(parseInt(total_price.innerText)*0.2));
+    const discounted1=parseInt(total_price.innerText)*0.15;
+    const discounted2=parseInt(total_price.innerText)*0.20;
+    const calculate1=(parseInt(total_price.innerText))-discounted1;
+    const calculate2=(parseInt(total_price.innerText))-discounted2;
 
     if(couponField.value==="NEW15"){
         discountField.classList.remove('hidden');
         inputField.classList.add('hidden');
-        discounts.innerText=discounted;
+        discounts.innerText=discounted1;
         grand_total.innerText=calculate1;
     }
     else if(couponField.value==="Couple 20"){
         discountField.classList.remove('hidden');
         inputField.classList.add('hidden');
-        discounts.innerText=discounted;
+        discounts.innerText=discounted2;
         grand_total.innerText=calculate2;
     }
     else if(couponField.value===""){
