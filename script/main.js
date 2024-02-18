@@ -7,6 +7,7 @@ for (const seats of seatButton) {
         if(countButtons>4){
             return alert("Sorry,You can't Buy More then 4 Tickets!")
         }
+        
         // --------------------------------------------Color Assign
         seats.classList.add('bg-green');
         // --------------------------------------------Details
@@ -116,4 +117,8 @@ const congrates=document.getElementById('congrates');
 nextBtn.addEventListener('click',function(){
     congrates.classList.remove('hidden');
     congrates.scrollIntoView();
+})
+// ------------------------------------------Continue
+document.getElementById('continue').addEventListener('click',function(){
+    document.getElementById('congrates').classList.add('hidden');
 })
