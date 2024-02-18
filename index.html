@@ -52,7 +52,7 @@
                         <li><a>Search</a></li>
                     </ul>
                 </div>
-                <a class="btn-ghost text-2xl font-extrabold">R-Ticket</a>
+                <a class="btn-ghost text-2xl font-extrabold text-green">R-Ticket</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -72,11 +72,10 @@
         <div class="hero min-h-screen" style="background-image: url('./images/banner.png');">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
-                <div class="w-10/12">
+                <div class="lg:w-10/12">
                     <h1 class="mb-5 text-6xl font-extrabold">End-to-End Travel with <br> <span class="text-green">R
                             Poribahan</span></h1>
-                    <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The
-                        integrated testing features allow for a streamlined </p>
+                    <p class="mb-5">Make your journey more comfortable with our Business class Buses and also have a safe journey with us.</p>
                     <button onclick="document.getElementById('ticket-section').scrollIntoView()" class="bg-green border-none font-bold px-6 py-2 rounded text-black">Buy Tickets</button>
                 </div>
             </div>
@@ -95,7 +94,7 @@
                     <div class="text-center mt-16 px-10 lg:pr-48">
                         <h2 class="font-extrabold text-3xl">15% OFF</h2>
                         <p>on your next purchase</p>
-                        <p class="opacity-70 text-sm">use by January 2024</p>
+                        <p class="opacity-70 text-sm">use by March 2024</p>
                     </div>
                     <img src="./images/cupon-devider.png" alt="">
                     <div class="text-center mt-20 px-10">
@@ -108,7 +107,7 @@
                     <div class="text-center mt-16 px-10 lg:pr-48">
                         <h2 class="font-extrabold text-3xl">20% OFF</h2>
                         <p>on your next purchase</p>
-                        <p class="opacity-70 text-sm">use by January 2024</p>
+                        <p class="opacity-70 text-sm">use by March 2024</p>
                     </div>
                     <img src="./images/cupon-devider.png" alt="">
                     <div class="text-center mt-20 px-10">
@@ -124,28 +123,27 @@
 
         </section>
         <!-- Ticket Section -->
-        <section class="pt-10 bg-gray-100 rounded-3xl mb-32">
+        <section class="pt-10 bg-gray-100 rounded-3xl mb-20 lg:mb-32">
             <!-- title -->
             <div class="text-center mb-5">
-                <h2 class="font-extrabold text-3xl">R Paribahan</h2>
-                <p>Yes, you can run unit tests and view the results directly within the app. The integrated
-                    testing features allow for a streamlined .</p>
+                <h2 class="font-extrabold text-3xl text-green">R Paribahan</h2>
+                <p>Lets begin the journey from here. Now, you can book your seat online without any hassle from here.Choose wisely and yes you will be going to experience your best journey with us.</p>
             </div>
-            <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+            
             <!-- Ticket Info -->
-            <div class="w-11/12 mx-auto flex bg-white lg:pr-10 lg:pl-5 rounded-xl mb-5">
+            <div class="w-11/12 mx-auto flex flex-col lg:flex-row bg-white lg:pr-10 lg:pl-5 rounded-xl mb-5">
                 <div class="rounded-xl flex-1">
                     <!-- ticket header -->
-                    <div class="flex lg:justify-between p-10">
+                    <div class="flex lg:justify-between p-3 lg:p-10">
                         <div class="flex gap-4 items-center">
                             <div><img src="./images/bus-logo.png" alt=""></div>
                             <div>
-                                <h2 class="font-extrabold text-3xl">RedLine Paribahan</h2>
+                                <h2 class="font-extrabold text-3xl"><span class="text-green">GreenLine</span> Paribahan</h2>
                                 <p>Coach-009-WEB ! AC_Business</p>
                             </div>
                         </div>
                         <div>
-                            <button class="px-2 lg:px-5 py-2 bg-gray rounded-md btn-outline text-green bg-lightGreen border-none flex items-center gap-2">
+                            <button class="px-4 lg:px-5 py-2 bg-gray rounded-md btn-outline text-green bg-lightGreen border-none flex flex-col lg:flex-row items-center gap-2">
                                 <img src="./images/seat-green.png" alt="">
                                 <h1><span id="seat-left">40</span> Seats Left</h1>
                             </button>
@@ -172,7 +170,7 @@
                     </div>
                 </div>
 
-                <img src="./images/info-devider.png" alt="">
+                <!-- <img class="invisible lg:visible" src="./images/info-devider.png" alt=""> -->
 
                 <!-- ticket Aside -->
                 <div class="flex flex-col justify-center">
@@ -183,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+  
             <div id="ticket-section" class="w-11/12 mx-auto flex flex-col lg:flex-row">
                 <!-- Seat Info (Max Of The JS are Here)-->
                 <div class="lg:w-[60%] bg-white px-5 rounded-xl">
@@ -201,7 +199,7 @@
                     </div>
                     <hr class="border-t-gray-400 border-dashed pb-3">
                     <!-- Seats -->
-                    <div class="flex justify-end mb-2"><button class="bg-gray px-10 py-2 rounded-md">Dr <img src="" alt=""></button></div>
+                    <div class="flex justify-end mb-2"><button class="bg-gray px-5 py-2 rounded-md"><img class="w-5" src="./images/steering-wheel.svg" alt=""></button></div>
                     
                     <div class="seats grid grid-cols-5 gap-2 lg:gap-5 items-center">
                         <p>A</p>
@@ -257,8 +255,8 @@
                     </div>
                 </div>
 
-                <!-- <hr class="border-t-gray-800 border-dashed"> -->
-
+                <!-- <img class="inline-block rotate-90 lg:rotate-0 scroll-my-96 lg:my-0" src="./images/info-devider.png" alt=""> -->
+                
                 <div class="px-5 lg:w-[40%] mt-4 lg:mt-0">
                     <h1 class="text-xl font-bold pb-3">Select Your Seat</h1>
                     <hr class="border-t-gray-400 border-dashed pb-3">
@@ -286,7 +284,7 @@
                             <!-- ----------Coupon------------- -->
                             <div>
                                 <label id="input-sec" class="input py-3 items-center">
-                                    <input id="coupon" type="text" class=" rounded-md px-6" placeholder="Have Any Coupon?">
+                                    <input id="coupon" type="text" class=" rounded-md lg:px-6" placeholder="Have Any Coupon?">
                                     <button id="coupon-apply-btn" class="bg-gray text-white rounded-md px-4 py-2 -mr-3" disabled>Apply</button>
                                 </label>
                                 <div id="discount-sec" class="hidden flex justify-between pt-2">
@@ -319,7 +317,7 @@
                     </div>
                     <!-- NEXT BTN-->
                     <button id="next-btn" class="text-white bg-gray w-full py-2 rounded-md font-bold" disabled>Next</button>
-                    <div class="flex justify-center gap-4">
+                    <div class="flex justify-center gap-4 mt-3">
                         <p class="underline">Terms and Conditions</p>
                         <p class="underline">Cancellation Policy</p>
                     </div>
@@ -342,13 +340,13 @@
         <div class="w-11/12 mx-auto py-28">
             <div class="flex justify-between pb-8">
                 <div>
-                    <h1 class="font-bold text-2xl">R-Ticket</h1>
+                    <h1 class="font-bold text-2xl text-green">R-Ticket</h1>
                     <p class="text-sm">R-Ticket is a digital platform to make your
                         daily commuting better.</p>
                 </div>
                 <div>
-                    <h1>Download Our App</h1>
-                    <div class="flex items-center gap-4 border rounded-md p-1">
+                    <h1 class="text-green">Download Our App</h1>
+                    <div class="flex items-center flex-col-reverse lg:flex-row gap-4 border rounded-md p-1">
                         <img src="./images/playstore.png" alt="">
                         <div>
                             <p class="text-sm">GET IT ON</p>
@@ -357,9 +355,9 @@
                     </div>    
                 </div>
             </div>
-            <hr class="border-t-gray-400 border-dashed pb-8">
+            <hr class="border-t-green border-dashed pb-8">
             <div class="flex justify-between">
-                <small>@all rights reserved,R-Ticket services limited.2024</small>
+                <small class="text-green">@all rights reserved,R-Ticket services limited.2024</small>
                 <div class="flex gap-5">
                     <p class="text-sm">Terms & Conditions</p>
                     <p class="text-sm">Return & Refund Policy</p>

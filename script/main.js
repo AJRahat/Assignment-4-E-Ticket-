@@ -5,7 +5,7 @@ for (const seats of seatButton) {
         // ------------------------------------------4 Tickets Only
         countButtons++;
         if(countButtons>4){
-            return alert("Sorry,You can't Buy anymore Tickets")
+            return alert("Sorry,You can't Buy More then 4 Tickets!")
         }
         // --------------------------------------------Color Assign
         seats.classList.add('bg-green');
