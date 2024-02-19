@@ -8,7 +8,7 @@ for (const seats of seatButton) {
             return alert("Sorry,You can't Buy More then 4 Tickets!")
         }
         
-        // --------------------------------------------Color Assign
+        // --------------------------------------------Color Assign & OneClickOnce
         seats.classList.add('disabled');
         seats.classList.add('bg-green');
         
@@ -63,10 +63,7 @@ for (const seats of seatButton) {
             nextBtn.classList.add('bg-green');
             nextBtn.classList.remove('bg-gray');
         })
-        
-        // ------------------------------------------One seat atOnce
-        
-        
+             
     })
 }
 // ----------------------------------------------Coupon
