@@ -9,7 +9,9 @@ for (const seats of seatButton) {
         }
         
         // --------------------------------------------Color Assign
+        seats.classList.add('disabled');
         seats.classList.add('bg-green');
+        
         // --------------------------------------------Details
         const bookedSeat=document.getElementById('sample');
 
@@ -61,6 +63,8 @@ for (const seats of seatButton) {
             nextBtn.classList.add('bg-green');
             nextBtn.classList.remove('bg-gray');
         })
+        
+        // ------------------------------------------One seat atOnce
         
         
     })
@@ -120,5 +124,5 @@ nextBtn.addEventListener('click',function(){
 })
 // ------------------------------------------Continue
 document.getElementById('continue').addEventListener('click',function(){
-    document.getElementById('congrates').classList.add('hidden');
+    location.reload();
 })
